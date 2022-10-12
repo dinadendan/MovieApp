@@ -2,7 +2,7 @@ import 'package:netflix/model/movie.dart';
 
 class MovieResponse {
   final List<Movie> movies;
-  final String error;
+  final String? error;
 
   MovieResponse(this.movies, this.error);
 

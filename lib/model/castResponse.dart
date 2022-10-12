@@ -2,7 +2,7 @@ import 'package:netflix/model/cast.dart';
 
 class CastResponse {
   final List<Cast> casts;
-  final String error;
+  final String ?error;
 
   CastResponse(this.casts, this.error);
 

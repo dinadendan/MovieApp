@@ -17,6 +17,7 @@ class MovieRepository {
   var getPlayingUrl = '$mainUrl/movie/now_playing';
   var getGenresUrl = "$mainUrl/genre/movie/list";
   var getPersonsUrl = "$mainUrl/trending/person/week";
+  var getSearchUrl = "$mainUrl/search/movie";
   var movieUrl = "$mainUrl/movie";
 
   Future<MovieResponse> getMovies() async {
@@ -148,4 +149,9 @@ class MovieRepository {
       return CastResponse.withError("$error");
     }
   }
+
+
 }
+
+
+///https://api.themoviedb.org/3/movie/top_rated?api_key=edd6fe8c0b58a7efa96137e61e5d66d5&language=en-US&page=1

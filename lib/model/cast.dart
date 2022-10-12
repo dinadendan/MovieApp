@@ -2,7 +2,7 @@ class Cast {
   final int id;
   final String character;
   final String name;
-  final String img;
+  final String? img;
 
   Cast(this.id,
       this.character,

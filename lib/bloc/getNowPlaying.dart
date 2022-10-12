@@ -1,6 +1,5 @@
 import 'package:netflix/repository/repository.dart';
 import 'package:rxdart/rxdart.dart';
-
 import '../model/movieResponse.dart';
 
 class NowPlayingListBloc {

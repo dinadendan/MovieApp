@@ -7,7 +7,7 @@ class MovieDetail {
   final int ?budget;
   final List<Genre> ?genres;
   final List<Company> ?companies;
-  final String ?releaseDate;
+  late final String releaseDate;
   final int ?runtime;
 
   MovieDetail(this.id,
